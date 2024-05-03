@@ -79,23 +79,47 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-Functionality:
-Description: The platform fulfills all the requirements specified in the project documentation.
-Criteria: Ensure that all functionalities outlined in the requirements are implemented and functioning as expected.
-Validation: Test each feature thoroughly to confirm its functionality against the defined requirements.
-Code Quality:
-Description: The codebase is well-structured, readable, and maintainable.
-Criteria: Evaluate code readability, adherence to coding standards, and the presence of appropriate comments and documentation.
-Validation: Conduct code reviews and use code analysis tools to ensure adherence to coding best practices.
-User Interface:
-Description: The user interface closely resembles the provided sample design.
-Criteria: Compare the implemented UI elements, layout, and styling with the provided design mockup.
-Validation: Utilize visual regression testing tools or manual inspection to verify the similarity between the UI and the sample design.
-Responsiveness (Bonus):
-Description: The platform is designed to work seamlessly across various devices and screen sizes.
-Criteria: Assess the responsiveness of the platform by testing it on different devices (desktops, tablets, mobile phones) and screen resolutions.
-Validation: Use browser developer tools to emulate different device resolutions and conduct real-device testing to ensure consistent performance and layout across all platforms.
-Performance:
-Description: The platform is optimized for performance using best practices.
-Criteria: Implement performance optimization techniques such as lazy loading, minification, caching, and resource bundling.
-Validation: Measure page load times, network requests, and resource utilization using performance profiling tools. Monitor and address any bottlenecks to ensure optimal performance under varying conditions.
+### Functionality:
+
+# Description: 
+The platform fulfills all the requirements specified in the project documentation.
+# Criteria: 
+Ensure that all functionalities outlined in the requirements are implemented and functioning as expected.
+# Validation: 
+Test each feature thoroughly to confirm its functionality against the defined requirements.
+
+### Code Quality:
+
+# Description:
+The codebase is well-structured, readable, and maintainable.
+# Criteria:
+Evaluate code readability, adherence to coding standards, and the presence of appropriate comments and documentation.
+# Validation:
+Conduct code reviews and use code analysis tools to ensure adherence to coding best practices.
+
+### User Interface:
+
+# Description:
+The user interface closely resembles the provided sample design.
+# Criteria:
+Compare the implemented UI elements, layout, and styling with the provided design mockup.
+# Validation:
+Utilize visual regression testing tools or manual inspection to verify the similarity between the UI and the sample design.
+
+### Responsiveness (Bonus):
+
+# Description:
+The platform is designed to work seamlessly across various devices and screen sizes.
+# Criteria:
+Assess the responsiveness of the platform by testing it on different devices (desktops, tablets, mobile phones) and screen resolutions.
+# Validation:
+Use browser developer tools to emulate different device resolutions and conduct real-device testing to ensure consistent performance and layout across all platforms.
+
+### Performance:
+
+# Description:
+The platform is optimized for performance using best practices.
+# Criteria:
+Implement performance optimization techniques such as lazy loading, minification, caching, and resource bundling.
+# Validation:
+Measure page load times, network requests, and resource utilization using performance profiling tools. Monitor and address any bottlenecks to ensure optimal performance under varying conditions.
