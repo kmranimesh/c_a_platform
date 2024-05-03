@@ -59,7 +59,10 @@ const JobCard = ({ job }) => {
           </Typography>
         </CardContent>
         <CardActions sx={{ justifyContent: 'center' }}>
-          <Button sx={{ width: '150px' }}  variant="contained" color="success" href={job.jdLink} target="_blank">Easy Apply</Button>
+          <Button sx={{ width: '100vh', backgroundColor:"#90EE90", color: "black" }}  variant="contained" color="success" href={job.jdLink} target="_blank">Easy Apply</Button>
+        </CardActions>
+        <CardActions sx={{ justifyContent: 'center' }}>
+          <Button sx={{ width: '100vh', backgroundColor:"blue" }}  variant="contained" color="success" href={job.jdLink} target="_blank">Unlock referral asks</Button>
         </CardActions>
       </Card>
     </Grid>

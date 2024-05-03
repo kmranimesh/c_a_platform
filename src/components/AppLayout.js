@@ -159,9 +159,6 @@ const applyFilters = (job) => {
 
   return (
     <div>
-    <Typography variant="h4" align="center" gutterBottom style={{fontWeight:'600' , color:'green'}}>
-        Candidate Application Platform
-    </Typography>
       <Filters onFilterChange={handleFilterChange} />
       {loading && pageNumber === 1 ? (
         <p>Loading...</p>
