@@ -1,15 +1,13 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux';
-import {thunk} from 'redux-thunk'; // Import thunk from 'redux-thunk', not as named export
-import jobReducer from './reducers/jobsReducer';
- // Import jobReducer from its correct path
+import { thunk } from 'redux-thunk'; // Import thunk from 'redux-thunk'
+import jobReducer from './reducers/jobReducer';
 
-// Combine reducers if you have more than one reducer
 const rootReducer = combineReducers({
-  jobs: jobReducer, // Use 'jobs' as the state key for jobReducer
+  jobs: jobReducer,
   // Add other reducers here if needed
 });
 
-// Create the Redux store with combined reducers and apply thunk middleware
-const store = createStore(rootReducer, applyMiddleware(thunk));
+const store = createStore(rootReducer, applyMiddleware(thunk)); // Apply thunk middleware to the store
 
 export default store;
+
